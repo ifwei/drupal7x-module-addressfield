@@ -8,7 +8,7 @@ function addressfield_field_schema() {
     'country' => array(
       'description' => 'Two letter ISO country code of this address.',
       'type' => 'varchar',
-      'length' => 2,
+      'length' => 6,
       'not null' => FALSE,
       'default' => '',
     ),
